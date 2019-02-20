@@ -15,7 +15,6 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' }
     ]
   },
 
@@ -28,6 +27,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '@/assets/scss/App.scss'
   ],
 
   /*
